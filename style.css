@@ -372,4 +372,107 @@ a {
     background: #fff;
     border-radius: 50%;
     padding: 0.2rem;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .main, .box_main, .main_abi, .main_abi_01, .main_abi_per_01, .main_abi_per_02,
+  .main_my_skill_01, .main_my_skill_02, .main_my_skill_03, .main_my_skill_04,
+  .contact_ig, .contact_box_text, .about_box_text {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button_per_right, .button_per_left, .button_per_left_skill, .button_per_left_skill_04 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .sidebar_personal, .info_personal, .contact_text, .about_text {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .main {
+    height: auto;
+  }
+
+  .main_abi, .main_abi_01 {
+    height: auto;
+  }
+
+  .main_abi_per_01, .main_abi_per_02 {
+    height: 1000px;
+  }
+
+  .grid_skill {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    order: -1;
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+  }
+
+  .box_main {
+    width: 100%;
+    height: auto;
+  }
+
+  .main_abi, .main_abi_01, .main_abi_per_01, .main_abi_per_02,
+  .main_my_skill_01, .main_my_skill_02, .main_my_skill_03, .main_my_skill_04 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .contact_ig, .contact_box_text, .about_box_text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .header_logo {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .contact_text {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .button_per_right, .button_per_left, .button_per_left_skill, .button_per_left_skill_04 {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+  }
+
+  .sidebar_profile {
+    width: 60%;
+  }
+
+  .about_text {
+    margin-left: 1rem;
+  }
+
+  .text_main_abi, .text_my_lit {
+    margin-top: 20px;
+  }
 }
