@@ -300,7 +300,7 @@ a {
 .sidebar_profile {
     border-radius: 50%;
     border: 0.4rem solid;
-    width: 65%;
+    width: 70%;
     min-width: 100px;
     /* height: 180px; */
     aspect-ratio: 1/1;
@@ -476,4 +476,5 @@ a {
     margin-top: 20px;
   }
 }
+
 
