@@ -44,11 +44,11 @@ a {
 
 .main{
     flex: 3;
-    height: 580px;
+    height: 790px;
     background-image: url(b4b90bd3b9b00bc63e9e44a30e60127c.jpg);
     background-size: cover;
     background-position: center;
-    width: 700px;
+    width: 1093px;
 }
 .text_box_main{
     text-align: left;
@@ -59,7 +59,7 @@ a {
 .box_main{
     background-color: #2c2b2b;
     width: 440px;
-    height: 600px;
+    height: 810px;
     display: flex;
     flex-direction: column;
 }
@@ -73,12 +73,12 @@ a {
   align-items: center;
   width: 500px;
   height: 200px;
-  margin-top: 27px;
+  margin-top: 70px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
   text-align: center;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  margin-left: 95px;
+  margin-left: 295px;
 }
 
 .main_abi:hover {
